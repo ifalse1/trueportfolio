@@ -25,7 +25,7 @@ export default function AboutPage() {
         <div
           className="absolute inset-0 w-full h-full bg-cover bg-center"
           style={{
-            backgroundImage: "url('/placeholder.svg?height=1080&width=1920')",
+            backgroundImage: "url('/landscape.jpg')",
             transform: `translateY(${scrollY * 0.5}px)`,
             backgroundAttachment: "fixed",
           }}
@@ -47,7 +47,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="relative aspect-square overflow-hidden rounded-xl shadow-xl order-2 md:order-1">
             <Image
-              src="/placeholder.svg?height=600&width=600&text=Profile"
+              src="/man.jpg"
               alt="Profile photo"
               fill
               className="object-cover"
@@ -75,8 +75,7 @@ export default function AboutPage() {
         <div
           className="absolute inset-0 w-full h-full bg-cover bg-center"
           style={{
-            backgroundImage: "url('/placeholder.svg?height=1080&width=1920')",
-            transform: `translateY(${(scrollY - 500) * 0.2}px)`,
+            backgroundImage: "url('/colors.jpg')",
             backgroundAttachment: "fixed",
           }}
         />
@@ -122,57 +121,6 @@ export default function AboutPage() {
                 <li>Performance Optimization</li>
                 <li>Agile Methodology</li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Experience section */}
-      <div className="max-w-5xl mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold mb-12 text-center">Experience</h2>
-        <div className="space-y-12">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <div className="md:text-right">
-              <p className="font-semibold">2021 - Present</p>
-              <p className="text-muted-foreground">Company Name</p>
-            </div>
-            <div className="md:col-span-3">
-              <h3 className="text-xl font-semibold">Senior Developer</h3>
-              <p className="text-muted-foreground mt-2">
-                Led development of [project/product], resulting in [achievement]. Collaborated with cross-functional
-                teams to implement [feature/technology]. Mentored junior developers and established best practices for
-                the team.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <div className="md:text-right">
-              <p className="font-semibold">2018 - 2021</p>
-              <p className="text-muted-foreground">Previous Company</p>
-            </div>
-            <div className="md:col-span-3">
-              <h3 className="text-xl font-semibold">Web Developer</h3>
-              <p className="text-muted-foreground mt-2">
-                Developed and maintained [type of applications/websites] using [technologies]. Implemented responsive
-                designs and ensured cross-browser compatibility. Collaborated with designers to transform mockups into
-                functional interfaces.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <div className="md:text-right">
-              <p className="font-semibold">2016 - 2018</p>
-              <p className="text-muted-foreground">First Company</p>
-            </div>
-            <div className="md:col-span-3">
-              <h3 className="text-xl font-semibold">Junior Developer</h3>
-              <p className="text-muted-foreground mt-2">
-                Assisted in the development of [project/product] using [technologies]. Participated in code reviews and
-                implemented feedback to improve code quality. Collaborated with the team to troubleshoot and resolve
-                bugs.
-              </p>
             </div>
           </div>
         </div>

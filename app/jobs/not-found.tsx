@@ -14,7 +14,7 @@ export default function JobNotFound() {
           <Link href="/jobs">View All Experience</Link>
         </Button>
         <Button asChild variant="outline">
-          <Link href="/" className="inline-flex items-center">
+          <Link href="/about" className="inline-flex items-center">
             <Home className="mr-2 h-4 w-4" />
             Back to About
           </Link>

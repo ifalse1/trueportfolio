@@ -13,7 +13,7 @@ const projects = [
     title: "Portfolio Website",
     description:
       "A personal portfolio website built with Next.js and Tailwind CSS. This portfolio website showcases my work and skills in web development. It features a responsive design, smooth animations, and optimized performance. The site includes an about page with a parallax effect, a projects showcase, and contact information.",
-    image: "/placeholder.svg?height=600&width=1200&text=Portfolio",
+    image: "/computer.jpg",
     technologies: ["Next.js", "React", "Tailwind CSS", "Responsive Design", "SEO"],
     dates: "January 2023 - March 2023",
   },
@@ -23,7 +23,7 @@ const projects = [
     title: "E-Commerce Platform",
     description:
       "A full-featured e-commerce platform with product management and payment integration. This e-commerce platform provides a complete solution for online stores. It includes product management, user authentication, shopping cart functionality, and secure payment processing. Built with React for the frontend and Node.js for the backend, it offers a smooth shopping experience with real-time inventory updates and order tracking.",
-    image: "/placeholder.svg?height=600&width=1200&text=E-Commerce",
+    image: "/ecom.png",
     technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe API"],
     dates: "June 2022 - December 2022",
   },
@@ -33,7 +33,7 @@ const projects = [
     title: "Mobile Fitness App",
     description:
       "A fitness tracking application for iOS and Android with workout plans and progress tracking. This cross-platform mobile application helps users track their fitness journey. It provides workout plans, progress tracking, and nutritional guidance. Developed with React Native and Firebase, it offers a seamless experience across iOS and Android devices with real-time data synchronization.",
-    image: "/placeholder.svg?height=600&width=1200&text=Fitness+App",
+    image: "/fitness.jpg",
     technologies: ["React Native", "Firebase", "Redux", "iOS", "Android"],
     dates: "March 2022 - May 2022",
   },
@@ -43,7 +43,7 @@ const projects = [
     title: "Weather Dashboard",
     description:
       "A real-time weather dashboard with location-based forecasts and interactive maps. This weather dashboard provides real-time weather information and forecasts for locations worldwide. It features interactive maps, hourly and daily forecasts, and severe weather alerts. Built with JavaScript and various weather APIs, it offers accurate and up-to-date information with a clean and intuitive user interface.",
-    image: "/placeholder.svg?height=600&width=1200&text=Weather",
+    image: "/weather.jpg",
     technologies: ["JavaScript", "Weather API", "Chart.js", "Mapbox", "Responsive Design"],
     dates: "September 2021 - November 2021",
   },
@@ -53,7 +53,7 @@ const projects = [
     title: "Task Management Tool",
     description:
       "A collaborative task management tool with real-time updates and team collaboration features. This task management application helps teams organize and track their work efficiently. It provides real-time collaboration, task assignment, and progress tracking. Developed with React, Socket.io, and Express, it enables seamless team collaboration with instant updates and notifications.",
-    image: "/placeholder.svg?height=600&width=1200&text=Task+Manager",
+    image: "/taskmanage.jpg",
     technologies: ["React", "Socket.io", "Express", "MongoDB", "Real-time"],
     dates: "April 2021 - August 2021",
   },
@@ -75,7 +75,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
             Back to Projects
           </Link>
 
-          <Link href="/" className="inline-flex items-center text-muted-foreground hover:text-foreground">
+          <Link href="/about" className="inline-flex items-center text-muted-foreground hover:text-foreground">
             <Home className="mr-2 h-4 w-4" />
             Back to About
           </Link>
@@ -119,7 +119,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
           </Button>
 
           <Button asChild variant="outline">
-            <Link href="/" className="inline-flex items-center">
+            <Link href="/about" className="inline-flex items-center">
               <Home className="mr-2 h-4 w-4" />
               Back to About
             </Link>

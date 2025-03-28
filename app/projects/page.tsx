@@ -9,7 +9,7 @@ const projects = [
     slug: "portfolio-website",
     title: "Portfolio Website",
     description: "A personal portfolio website built with Next.js and Tailwind CSS.",
-    image: "/placeholder.svg?height=600&width=800&text=Portfolio",
+    image: "/computer.jpg",
     tags: ["Next.js", "React", "Tailwind CSS"],
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     slug: "e-commerce-platform",
     title: "E-Commerce Platform",
     description: "A full-featured e-commerce platform with product management and payment integration.",
-    image: "/placeholder.svg?height=600&width=800&text=E-Commerce",
+    image: "/ecom.png",
     tags: ["React", "Node.js", "MongoDB"],
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     slug: "mobile-fitness-app",
     title: "Mobile Fitness App",
     description: "A fitness tracking application for iOS and Android with workout plans and progress tracking.",
-    image: "/placeholder.svg?height=600&width=800&text=Fitness+App",
+    image: "/fitness.jpg",
     tags: ["React Native", "Firebase", "Redux"],
   },
   {
@@ -33,7 +33,7 @@ const projects = [
     slug: "weather-dashboard",
     title: "Weather Dashboard",
     description: "A real-time weather dashboard with location-based forecasts and interactive maps.",
-    image: "/placeholder.svg?height=600&width=800&text=Weather",
+    image: "/weather.jpg",
     tags: ["JavaScript", "APIs", "Chart.js"],
   },
   {
@@ -41,7 +41,7 @@ const projects = [
     slug: "task-management-tool",
     title: "Task Management Tool",
     description: "A collaborative task management tool with real-time updates and team collaboration features.",
-    image: "/placeholder.svg?height=600&width=800&text=Task+Manager",
+    image: "/taskmanage.jpg",
     tags: ["React", "Socket.io", "Express"],
   },
 ]
@@ -52,7 +52,7 @@ export default function ProjectsPage() {
       {/* Navigation */}
       <div className="max-w-7xl mx-auto mb-8">
         <Link
-          href="/"
+          href="/about"
           className="inline-flex items-center text-muted-foreground hover:text-foreground transition-colors"
         >
           <ArrowLeft className="mr-2 h-4 w-4" />
@@ -106,7 +106,7 @@ export default function ProjectsPage() {
         {/* Footer navigation */}
         <div className="mt-16 text-center">
           <Link
-            href="/"
+            href="/about"
             className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-base font-medium text-primary-foreground shadow-sm hover:bg-primary/90 transition-colors"
           >
             <Home className="mr-2 h-5 w-5" />

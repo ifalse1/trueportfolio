@@ -11,7 +11,7 @@ const jobs = [
     slug: "senior-developer-tech-innovations",
     title: "Senior Developer",
     company: "Tech Innovations Inc.",
-    logo: "/placeholder.svg?height=100&width=100&text=TI",
+    logo: "/logo1.png",
     description:
       "Led frontend development for multiple web applications using React and Next.js. Architected and implemented new features, collaborated with UX/UI designers, optimized application performance, implemented CI/CD pipelines, and mentored junior developers. Redesigned the company's flagship product, resulting in a 40% increase in user engagement. Reduced bundle size by 60% through code splitting and lazy loading techniques.",
     startDate: "January 2021",
@@ -22,7 +22,7 @@ const jobs = [
     slug: "web-developer-digital-solutions",
     title: "Web Developer",
     company: "Digital Solutions Group",
-    logo: "/placeholder.svg?height=100&width=100&text=DSG",
+    logo: "/logo2.png",
     description:
       "Developed responsive websites and web applications for clients across various industries. Implemented frontend interfaces using React and modern JavaScript. Built RESTful APIs and backend services using Node.js and Express. Collaborated with designers to translate mockups into functional websites. Completed over 20 client projects with a 100% satisfaction rate. Reduced page load times by an average of 40% through optimization techniques.",
     startDate: "March 2018",
@@ -33,7 +33,7 @@ const jobs = [
     slug: "frontend-developer-creative-agency",
     title: "Frontend Developer",
     company: "Creative Agency Co.",
-    logo: "/placeholder.svg?height=100&width=100&text=CA",
+    logo: "/logo3.png",
     description:
       "Created interactive user interfaces and implemented responsive designs for client websites and applications. Implemented pixel-perfect designs from Sketch and Figma mockups. Created animations and interactive elements using JavaScript and CSS. Optimized websites for maximum speed and scalability. Developed the frontend for an award-winning website in the travel industry. Implemented advanced animations that became a signature style for the agency.",
     startDate: "June 2016",
@@ -44,7 +44,7 @@ const jobs = [
     slug: "junior-developer-startup-hub",
     title: "Junior Developer",
     company: "Startup Hub",
-    logo: "/placeholder.svg?height=100&width=100&text=SH",
+    logo: "/logo4.png",
     description:
       "Assisted in the development of web applications for multiple startup clients. Built and maintained websites using PHP, JavaScript, and MySQL. Implemented responsive designs using Bootstrap and custom CSS. Fixed bugs and improved functionality of existing applications. Developed a custom CMS that was adopted by three startup clients. Contributed to an open-source project that gained over 500 GitHub stars.",
     startDate: "August 2014",
@@ -55,7 +55,7 @@ const jobs = [
     slug: "web-design-intern-design-studio",
     title: "Web Design Intern",
     company: "Design Studio",
-    logo: "/placeholder.svg?height=100&width=100&text=DS",
+    logo: "/logo5.png",
     description:
       "Assisted senior designers in creating website mockups and wireframes. Developed websites using HTML, CSS, and WordPress. Created graphics and visual elements for client websites. Optimized images and assets for web use. Designed and developed a complete website for a local non-profit organization. Created a series of banner ads that achieved a 15% higher click-through rate than previous campaigns.",
     startDate: "May 2013",
@@ -79,7 +79,7 @@ export default function JobPage({ params }: { params: { slug: string } }) {
             Back to Work Experience
           </Link>
 
-          <Link href="/" className="inline-flex items-center text-muted-foreground hover:text-foreground">
+          <Link href="/about" className="inline-flex items-center text-muted-foreground hover:text-foreground">
             <Home className="mr-2 h-4 w-4" />
             Back to About
           </Link>
@@ -117,7 +117,7 @@ export default function JobPage({ params }: { params: { slug: string } }) {
           </Button>
 
           <Button asChild variant="outline">
-            <Link href="/" className="inline-flex items-center">
+            <Link href="/about" className="inline-flex items-center">
               <Home className="mr-2 h-4 w-4" />
               Back to About
             </Link>
